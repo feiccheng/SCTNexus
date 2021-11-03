@@ -1,0 +1,10 @@
+                           cabbage                   cabbage     unit is   Carton
+                           cucumber                  cucumber    unit is   CWT
+                           onion                     onion       unit is   Sack
+                           sesame                    sesame      unit is   CWT
+                           cantaloupe                cantaloupe  unit is   Carton
+                           waterMelon                waterMelon  unit is   CWT
+                           honeydew                  honeydew    unit is   Carton
+                           spinach                   spinach     unit is   Carton
+                           peanut                    peanut      unit is   CWT
+                           canola                    canola      unit is   Bushel
