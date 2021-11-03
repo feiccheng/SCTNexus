@@ -1,0 +1,136 @@
+comal_T
+dimmit_C
+hays_T
+Hays_T2
+karnes_C
+kendall_T
+atascosa_C
+caldwell_C
+dimmit_c2
+dimmit_C3
+frio_c
+gonzales_C1
+gonzales_C2
+karnes_C2
+lasalle_c
+Wilson_c1
+wilson_c2
+dimmit_c4
+lasalle_c2
+
+dewitt_c
+dimmit_c5
+karnes_c3
+lasalle_c3
+* outside water pojrj
+medina_O1
+medina_O2
+medina_O3
+medina_O4
+medina_O5
+
+* potential water reuse projects
+
+  Atascosa_Reuse1
+   Atascosa_Reuse2
+   Atascosa_Reuse3
+   Atascosa_Reuse4
+   Bexar_Reuse1
+  Bexar_Reuse2
+  Bexar_Reuse3
+  Bexar_Reuse4
+  Caldwell_Reuse1
+  Caldwell_Reuse2
+  Caldwell_Reuse3
+  Caldwell_Reuse4
+  Calhoun_Reuse1
+  Calhoun_Reuse2
+  Calhoun_Reuse3
+  Calhoun_Reuse4
+  Comal_Reuse1
+  Comal_Reuse2
+  Comal_Reuse3
+  Comal_Reuse4
+  Dewitt_Reuse1
+  Dewitt_Reuse2
+  Dewitt_Reuse3
+  Dewitt_Reuse4
+  Dimmit_Reuse1
+  Dimmit_Reuse2
+  Dimmit_Reuse3
+  Dimmit_Reuse4
+  Frio_Reuse1
+  Frio_Reuse2
+  Frio_Reuse3
+  Frio_Reuse4
+  Goliad_Reuse1
+  Goliad_Reuse2
+  Goliad_Reuse3
+  Goliad_Reuse4
+  Gonzales_Reuse1
+  Gonzales_Reuse2
+  Gonzales_Reuse3
+  Gonzales_Reuse4
+  Guadalupe_Reuse1
+  Guadalupe_Reuse2
+  Guadalupe_Reuse3
+  Guadalupe_Reuse4
+  Hays_Reuse1
+  Hays_Reuse2
+  Hays_Reuse3
+  Hays_Reuse4
+  Karnes_Reuse1
+  Karnes_Reuse2
+  Karnes_Reuse3
+  Karnes_Reuse4
+  Kendall_Reuse1
+  Kendall_Reuse2
+  Kendall_Reuse3
+  Kendall_Reuse4
+  LaSalle_Reuse1
+  LaSalle_Reuse2
+  LaSalle_Reuse3
+  LaSalle_Reuse4
+  Medina_Reuse1
+  Medina_Reuse2
+  Medina_Reuse3
+  Medina_Reuse4
+  Refugio_Reuse1
+  Refugio_Reuse2
+  Refugio_Reuse3
+  Refugio_Reuse4
+  Uvalde_Reuse1
+  Uvalde_Reuse2
+  Uvalde_Reuse3
+  Uvalde_Reuse4
+  Victoria_Reuse1
+  Victoria_Reuse2
+  Victoria_Reuse3
+  Victoria_Reuse4
+  Wilson_Reuse1
+  Wilson_Reuse2
+  Wilson_Reuse3
+  Wilson_Reuse4
+  Zavala_Reuse1
+  Zavala_Reuse2
+  Zavala_Reuse3
+  Zavala_Reuse4
+     CorpusChristi_Reuse1
+     CorpusChristi_Reuse2
+     CorpusChristi_Reuse3
+     CorpusChristi_Reuse4
+*     GonzalesCity_Reuse1
+*     GonzalesCity_Reuse2
+*     GonzalesCity_Reuse3
+*     GonzalesCity_Reuse4
+     SanAntonio_Reuse1
+     SanAntonio_Reuse2
+     SanAntonio_Reuse3
+     SanAntonio_Reuse4
+     VictoriaCity_Reuse1
+     VictoriaCity_Reuse2
+     VictoriaCity_Reuse3
+     VictoriaCity_Reuse4
+ BanderaReuse
+ KerrReuse
+ BastropReuse
