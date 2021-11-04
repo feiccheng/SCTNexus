@@ -63,7 +63,7 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_a
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_aquifersectorpump                 aquifer,layer,citycounty,sector,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_surfacediversion                  river,citycounty,sector,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_addupwater_source                 citycounty,watersources,sector,states,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_waterdemand                       citycounty,sector,month,parameterstructure,states,altrunsall
+$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_waterdemand                       citycounty,sector,month,sditem,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_unitpumpcost                      citycounty,Aquifer,layer,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_project_totalcost                 project,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_project_unitcost                  project,altrunsall
@@ -76,7 +76,7 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_l
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_agsales_county                    county,agitem,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_watermarket                       riverandaquifer,county,sector,states,wel_output,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_DYO_agbenefit                     county,states,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_demand_pp                         month%addhour%,parameterstructure,states,altrunsall
+$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_demand_pp                         month%addhour%,sditem,states,altrunsall
 
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_crop_strat                        altrunsall,county,crops,landirrtype,states,allstrat,alli
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_Demanddata_pp                     altrunsall,parameterstructure
@@ -117,8 +117,8 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_W
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_PUMP_GROUNDWATER               aquifer,layer,citycounty,sector,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_OTHERWATERSOURCE               citycounty,sector,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_ADDUPUSERALLWATER              customer,sector,month,states,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_WATERDEMAND_STEPS              customer,sector,states,allsteps,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_WATERDEMAND                    customer,sector,states,altrunsall
+$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_WATERDEMAND_STEPS              customer,sector,allsteps,altrunsall
+$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_WATERDEMAND                    customer,sector,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_FLOW                           river,riverplace,downriver,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_RETURNFLOW                     customer,sector,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WV_OUTTOBAY                       river,riverplace,month,states,altrunsall
@@ -173,7 +173,7 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_E
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_WS_OPERATION                   power_plant_all,ws_type,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_WS_NEWBUILD                    power_plant_all,ws_type,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_WS_LAND                        power_plant_all,ws_type,county,zones,landirrtype,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_DEMAND_STEPS                   states,allsteps,altrunsall
+$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_DEMAND_STEPS                   allsteps,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_DEMAND_TRANS                   county,county1,month%addhour%,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_DEMAND_WP                      county,month,states,altrunsall
 
@@ -187,7 +187,7 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_A
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_PP_NEWNGCC_LIMIT           county,power_plant_cooling,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_PP_PEAKCAPCITY_REQ         states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_PP_CAPACITYLIMIT           uplow,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_PP_WATER_SURFACE_DIVBAL2   river,riverplace,county,sector,month,states,altrunsall
+*$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_PP_WATER_SURFACE_DIVBAL2   river,riverplace,county,sector,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_WS_CAPACITY_LIMIT          altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_DEMAND_COUNTYBAL           county,month%addhour%,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_ART_EE_DEMAND_TRANSBAL            county,month%addhour%,states,altrunsall
@@ -202,10 +202,9 @@ $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_E
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EV_PP_DO_I_OPER_POWERPLANT        power_plant_all,power_plant_type,power_plant_cooling,altrunsall
 
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_AE_AGLANDBAL                      county,zones,landirrtype,altrunsall
-$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WE_DIVERSIONQMAX                  county,sector,river,riverplace,states,altrunsall
+*$batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WE_DIVERSIONQMAX                  county,sector,river,riverplace,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WE_COUNTYPUMPBAL                  county,Aquifer,layer,month,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_WE_EDWARDS_PUMPLIMIT              county,gsector,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_EE_DEMAND_QUANTITYBAL             month%addhour%,states,altrunsall
 $batinclude %whereisreport%report_merge_bring_data_from_a_gdx          sreport_V_NETBENEFIT                      altrunsall
 $onlisting
-
